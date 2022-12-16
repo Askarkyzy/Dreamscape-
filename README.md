@@ -1,2 +1,2 @@
 # Dreamscape-
-Group project about travel websit by Anel Askarkyz,Milana,Ermuhammed
+Group project about travel website by Anel Askarkyz,Milana,Ermuhammed
