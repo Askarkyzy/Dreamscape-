@@ -38,6 +38,10 @@ h3{
 
 }
 
+
+
+
+
 /*Header starts*/
 
 .header{
@@ -84,5 +88,79 @@ h3{
 
 header.sticky{
   background: var(--bg-color);
-  
+
 }
+
+.logo a{
+  display: flex;
+  align-items: center;
+}
+
+.logo h1{
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: bolder;
+  padding-left: 0.5rem;
+
+}
+
+.logo .dot{
+  height: 25px;
+  width: 25px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.header .search-box{
+  position: relative;
+  min-width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+}
+
+.header .search-box .search-btn i{
+  color: white;
+  font-size: 15px;
+  align-items: center;
+
+}
+
+.header .search-box .input-box{
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  right: 20px;
+  transform: scaleX(0);
+  transform-origin: right;
+
+  background-color: white;
+  color: #3e3e3e;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  transition: 0.4s;
+}
+
+.header  .search-box:hover > .input-box{
+  width: 200px;
+  transform: scaleX(1);
+  padding: 0px 25px 0px 10px;
+
+}
+
+.header  .input-box:focus{
+  width: 200px;
+  transform: scaleX(1);
+  padding: 0px 25px 0px 10px;
+}
+
+/*Header ends*/
