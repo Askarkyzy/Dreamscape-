@@ -54,3 +54,35 @@ h3{
   padding: 4rem 12% ;
 
 }
+
+.navbar li{
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.header .navbar a {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 1rem;
+  transition: ease .40s;
+
+}
+
+.header .navbar a:hover{
+  color: var(--second-color);
+
+}
+
+.header .navbar li.active{
+  border-bottom: 1px solid white;
+
+}
+
+header.sticky{
+  background: var(--bg-color);
+  
+}
