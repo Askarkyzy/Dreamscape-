@@ -425,6 +425,69 @@ text-align: center;
 /*Timeline ends*/
 
 
+/*Philosophy section starts*/
+
+
+
+.philosophy{
+  display: flex;
+  align-items: center;
+
+
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  background: url(img/jan-walter-luigi--MqSCWMBocs-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+  background-color: hsla(0, 0%, 0%, 0.7);
+  background-blend-mode: overlay;
+
+
+
+}
+
+.philosophy-img{
+  flex: 1 42rem;
+}
+
+
+img {
+  width: 100%;
+/*  height: auto;*/
+}
+
+
+
+
+  
+.philosophy-text{
+  flex: 10 42rem;
+}
+
+
+.philosophy-text h3 {
+  font-size: 5.5vw;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.philosophy-text p {
+ 
+
+  margin-top: 2rem;
+
+
+
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+  font-weight: 600;
+}
+
+
 /*footer starts*/
 
 
