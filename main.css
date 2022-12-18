@@ -10,3 +10,47 @@
   text-decoration: none;
   
 }
+
+:root{
+  --bg-color: #161815;
+  --text-color: #fff;
+
+  --second-color: #cf2524;
+  --border-color:#444743;
+
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+body{
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+h3{
+  font-size: 6vw;
+  color: var(--text-color);
+
+}
+
+/*Header starts*/
+
+.header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10100;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 4rem 12% ;
+
+}
