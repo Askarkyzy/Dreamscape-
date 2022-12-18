@@ -299,3 +299,90 @@ section{
 }
 
 /*Popular Tours ends*/
+
+
+
+/*Videos section starts*/
+
+.videos-section{
+  display: flex;
+  align-items: center;
+
+
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  background: url(img/jan-walter-luigi--MqSCWMBocs-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+  background-color: hsla(0, 0%, 0%, 0.7);
+  background-blend-mode: overlay;
+
+
+
+}
+
+.video-container{
+  flex: 1 42rem;
+}
+
+
+video {
+  width: 100%;
+/*  height: auto;*/
+}
+
+
+.video-container .controls{
+  text-align: center;
+  padding: 2rem 0;
+
+}
+
+
+.video-container .controls span{
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  margin: .7rem;
+
+}
+
+.video-container .controls span:hover{
+  background: var(--second-color);
+
+}
+
+
+
+  
+.videos-text{
+  flex: 10 42rem;
+}
+
+
+.videos-text h3 {
+  font-size: 5.5vw;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.videos-text p {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+  font-weight: 600;
+}
+
+
+.videos-text, .video-container{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
