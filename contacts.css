@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+:root{
+  --bg-color: #161815;
+  --text-color: #fff;
+
+  --second-color: #cf2524;
+  --border-color:#444743;
+
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+body{
+    line-height: 1.5;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+h3{
+ font-size: 6vw;
+  color: #fff;
+}
+
+/*Header starts*/
+
+.header {
+  position: fixed;
+  top: 0;
+
+  right: 0;
+  z-index: 10100;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 4rem 12% ;
+  
+
+
+  
+}
+
+.navbar li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header .navbar a {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+
+
+  display: inline-block;
+  margin: 0 1rem;
+  transition: ease .40s;
+
+}
+
+.header .navbar a:hover {
+  color: var(--second-color);
+
+}
+
+.header .navbar li.active{
+  border-bottom: 1px solid white;
+} 
+
+
+header.sticky{
+  background: var(--bg-color);
+
+}
+
+
+.logo a{
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+}
+
+.logo .dot {
+  height: 25px;
+  width: 25px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.header .search-box{
+  position: relative;
+  min-width: 40px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+}
+
+.header  .search-box .search-btn{
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.4s;
+
+}
+
+.header  .search-box .search-btn i{
+  color: white;
+  font-size: 15px;
+  align-items: center;
+
+
+
+}
+
+.header  .search-box .input-box{
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  right: 20px;
+  transform: scaleX(0);
+  transform-origin: right;
+
+  background-color: white;
+  color: #3e3e3e;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  transition: 0.4s;
+
+}
+
+.header  .search-box:hover > .input-box{
+  width: 180px;
+  transform: scaleX(1);
+  padding: 0px 25px 0px 10px;
+
+}
+
+.header  .input-box:focus{
+  width: 180px;
+  transform: scaleX(1);
+  padding: 0px 25px 0px 10px;
+}
+
+
+
+
+        /*Header ends*/
+
+
+section {
+  padding: 4.5rem 12%;
+  padding-block: 100px;
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
+
+.contact-bg{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(img/jan-walter-luigi--MqSCWMBocs-unsplash.jpg);
+
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-bg h3{
+    font-size: 5vh;
+    font-weight: 400;
+    line-height: 2;
+
+}
+.contact-bg h2{
+    font-size: 6vw;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+}
+.line div{
+    margin: 0 0.2rem;
+}
+.line div:nth-child(1),
+.line div:nth-child(3){
+    height: 3px;
+    width: 70px;
+    background: var(--second-color);
+    border-radius: 5px;
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+.line div:nth-child(2){
+    width: 10px;
+    height: 10px;
+    background: var(--second-color);;
+    border-radius: 50%;
+}
+.text{
+
+    margin-top: 1.6rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 2;
+
+}
+.contact-bg .text{
+    margin: 1.6rem 0;
+}
+
+
+/*Section contact bg ends*/
+
+
+/*section contact body starts*/
+.contact-body{
+    padding-block: 0;
+}
+.contact-info{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.contact-info span{
+    display: block;
+}
+.contact-info div{
+    margin: 3rem 0;
+    padding: 3rem;
+}
+
+.contact-info span .fas{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: var(--second-color);
+}
+.contact-info div span:nth-child(2){
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.contact-form{
+    padding: 5rem 0;
+    border-top: 1px solid var(--border-color);
+}
+.contact-form form{
+    padding-bottom: 1rem;
+}
+.form-control{
+    width: 100%;
+    border: 1.5px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 0.6rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+}
+.send-btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--second-color);
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.send-btn:hover{
+    opacity: 0.8;
+}
+.contact-form > div img{
+    width: 85%;
+}
+.contact-form > div{
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.credit {
+  background: #222;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: #aaa;
+}
+
+.credit span {
+  color: var(--second-color);
+}
+
+
+
+@media screen and (min-width: 768px){
+    .contact-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .contact-bg .text{
+        width: 50%;
+    }
+    .contact-form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .contact-info{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 2.5rem 2.5rem;
+/*    padding: 4.5rem 12%;*/
+  }
+}
+
+@media (max-width: 768px) {
+ #menu-btn {
+    display: inline-block;
+  }
+
+
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: var(--bg-color);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
+ /* .home {
+    margin-top: 10rem;
+  }
+  */
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  
+}
