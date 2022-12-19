@@ -1,1 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+.first {
+    display: flex;
+    margin: 20px 100px;
+}
+
+h2 {
+    color: red;
+}
+
+.blok {
+    margin-top: 20px;
+}
+
+.blok-2 {
+    margin-top: 20px;
+}
+
+.mina-2 {
+    margin-top: 20px;
+}
+
+.krisha {
+    margin-left: 147px;
+}
+
+.shrup {
+    margin-left: 147px;
+}
+
+.second {
+    color: red;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 17px;
+    z-index: -1;
+}
+
+.Maps {
+    padding-top: 60px;
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    padding-top: 30px;
+    color: red;
+}
+
+.bar {
+    position: relative;
+    padding-top: 30px;
+    width: 500px; 
+}
+
+.rap {
+    position: relative;
+    padding-top: 30px;
+    width: 500px;
+}
+
+.b {
+    margin-top: 10px;
+}
+
+.para {
+    padding: 10px 100px 0 10px;
+}
+
+.drak {
+    padding: 10px 77px 0 44px;
+}
+.drak-4 {
+    padding: 10px 77px 0 97px;
+}
+.drak-5 {
+    padding: 10px 75px 0 0px;
+}
+.drak-7 {
+    padding: 10px 77px 0 22px;
+}
+.drak-8 {
+    padding: 10px 0px 0 0;
+}
+.drak-9 {
+    padding: 10px 77px 0 83px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.wrap {
+    display: flex;
+    margin: 0 100px;
+}
+
+.name-2 {
+    padding-top: 30px;
+    color: red;
+}
+.nami {
+    display: flex;
+}
+.container{
+    margin-left: 33%;
+    max-width: 100%;
+    width: 400px;
+}
+
+#form {
+    width: 300px;
+}
+
+#form h1{
+  position: relative;
+  padding: 25px 0 30px;
+    color: red;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 108%;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid ;
+    border-radius: 4px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 110%;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.field{
+  width: 110%;
+  border: 2px solid;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 22px;
+  transition: .3s;
+    background-color: #fff;
+    border-radius: 4px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.field input:focus {
+    outline: 0;
+}
+
+textarea{
+  min-height: 150px;
+    border-radius: 4px;
+}
+
+
+@media (max-width:843px) {
+    .second h1 {
+        position: absolute;
+        left: 2px;
+        top: 3px;
+        font-size: 22px;
+        }
+    
+        .third h2 {
+            position: absolute;
+            left: 2px;
+            font-size: 15px;
+            top: 30px;
+        }
+    
+        .blok {
+            position: absolute;
+            left: 2px;
+            font-size: 12px;
+            top: 33px;
+        }
+    
+        .four {
+            position: absolute;
+            left: 2px;
+            top: 85px;
+            font-size: 10px;
+        }
+        
+        .blok-2 {
+            position: absolute;
+            left: 2px;
+            top: 83px;
+            font-size: 12px;
+        }
+    
+        .mina {
+            position: absolute;
+            left: 2px;
+            font-size: 9px;
+            top: 135px;
+        }
+    
+        .mina-2 {
+            position: absolute;
+            left: 2px;
+            top: 133px;
+            font-size: 11px;
+        } 
+    
+        .Maps {
+            position: absolute;
+            width: 63%;
+            top: 130px;
+        }
+    
+        .name {
+            position: absolute;
+            left: 2px;
+            font-size: 9px;
+            bottom: 319px;
+        }
+    
+        .bar {
+            position: absolute;
+            left: 2px;
+            font-size: 10px;
+            bottom: 104px;
+        }
+        .bar hr{
+            width: 49%;
+        }
+    
+        .para {
+            padding: 8px 0 0 0;
+        }
+    
+        .drak {
+            padding: 8px 60px 0 70px;
+        }
+    
+        .drak-4 {
+            padding: 8px 57px 0 102px;
+        }
+    
+        .drak-5 {
+            padding: 8px 37px 0 40px;
+        }
+    
+        .drak-7 {
+            padding: 8px 39px 0 54px; 
+        }
+    
+        .name-2 {
+            position: absolute;
+            bottom: 60px;
+            font-size: 8px;
+        }
+    
+        .rap {
+            bottom: -5px;
+        }
+    
+        .drak-9 {
+            padding: 8px 49px 0 95px;
+        }
+    
+        .container {
+            position: absolute;
+            left: -129px;
+            top: 725px;
+        }
+    
+        #form h1 {
+            font-size: 20px;
+        }
+    
+        .input-control {
+            width: 68%;
+        }
+        
+        .field {
+            width: 75%;
+        }
+    
+        #form button {
+            width: 83%;
+        }
+    
+    }
+
+    
