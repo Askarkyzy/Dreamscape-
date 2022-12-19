@@ -493,9 +493,9 @@ video {
 }
 
 @media (max-width: 768px) {
- /* #menu-btn {
+  #menu-btn {
     display: inline-block;
-  }*/
+  }
 
 
   .header .navbar {
