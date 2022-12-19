@@ -272,43 +272,42 @@ section {
 }
 .contact-info{
     margin-top: 0px;
-margin-bottom: 2rem;
-text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 .contact-info span{
     display: block;
 }
 .contact-info div{
-    margin: 0.8rem 0;
-    padding: 1rem;
+    margin: 3rem 0;
+    padding: 3rem;
 }
+
 .contact-info span .fas{
-    font-size: 2rem;
-    padding-bottom: 0.9rem;
-    color: #f7327a;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: var(--second-color);
 }
 .contact-info div span:nth-child(2){
     font-weight: 500;
     font-size: 1.1rem;
 }
-.contact-info .text{
-    padding-top: 0.4rem;
-}
+
 .contact-form{
-    padding: 2rem 0;
-    border-top: 1px solid #c7c7c7;
+    padding: 5rem 0;
+    border-top: 1px solid var(--border-color);
 }
 .contact-form form{
     padding-bottom: 1rem;
 }
 .form-control{
     width: 100%;
-    border: 1.5px solid #c7c7c7;
+    border: 1.5px solid var(--border-color);
     border-radius: 5px;
     padding: 0.7rem;
     margin: 0.6rem 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
     outline: 0;
 }
 .form-control:focus{
@@ -320,11 +319,11 @@ text-align: center;
     column-gap: 0.6rem;
 }
 .send-btn{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     color: #fff;
-    background: #f7327a;
+    background: var(--second-color);
     border: none;
     border-radius: 5px;
     padding: 0.7rem 1.5rem;
@@ -340,40 +339,22 @@ text-align: center;
 .contact-form > div{
     margin: 0 auto;
     text-align: center;
-    width: 85%;
-padding-top: 2rem;
+
 }
-.contact-footer{
-    padding: 2rem 0;
-    background: #000;
+
+.credit {
+  background: #222;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: #aaa;
 }
-.contact-footer h3{
-    font-size: 1.3rem;
-    color: #fff;
-    margin-bottom: 1rem;
-    text-align: center;
+
+.credit span {
+  color: var(--second-color);
 }
-.social-links{
-    display: flex;
-    justify-content: center;
-}
-.social-links a{
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.4rem;
-    transition: all 0.4s ease;
-}
-.social-links a:hover{
-    color: #f7327a;
-    border-color: #f7327a;
-}
+
+
 
 @media screen and (min-width: 768px){
     .contact-bg .text{
