@@ -161,6 +161,8 @@ h3{
 .contact-form > div{
     margin: 0 auto;
     text-align: center;
+    width: 85%;
+padding-top: 2rem;
 }
 .contact-footer{
     padding: 2rem 0;
