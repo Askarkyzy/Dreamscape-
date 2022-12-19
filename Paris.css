@@ -237,7 +237,7 @@ section {
 .home-text h3{
   color: var(--second-color);
   text-align: center;
-  
+
 }
 
 
@@ -256,199 +256,56 @@ section {
 
 
 
-/*Popular Tours starts*/
+/*services starts*/
 
-.populartours{
-
-  position: relative;
-  
-
-
-  width: 100%;
-
-
-}
-
-.populartours-text{
+.services-text{
   text-align: center;
-
+  margin-bottom: 1.6rem;
 }
 
-.populartours h3{
+.services-text h3{
   font-size: 2.5rem;
-
-  color: #fff;
-  text-transform: uppercase;
-
+color: #fff;
+text-transform: uppercase;
 }
 
-.populartours p {
 
-  margin-top: 1.6rem;
-
-  font-size: 1.4rem;
-  color: #fff;
-}
-
-.populartours-list{
-
-
+.services .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  grid-gap: 1.5rem;
-  
-  align-items: center;
-  margin-top: 5rem;
-
+      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
 }
 
-.col-content {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-
-.col-content img {
- 
-  object-fit: cover;
+.services .box-container .box {
+  background: var(--border-color);
   border-radius: 1rem;
-
-  width: 100%;
-  max-width: 320px;
-  height: 400px;
-  cursor: pointer;
-  border: 1px solid #4e4f4c;
-
-  overflow: hidden;
-  transition: all .3s cubic-bezier(.495,.05,.55,.95);
-  
-}
-
-
-.populartours-list h3{
-  position: absolute;
-  width: 100%;
-
-  bottom: 60px;
+  padding: 3rem;
   text-align: center;
+  border: 0.2rem solid #111;
 }
 
-.populartours-list p{
-  position: absolute;
-  width: 100%;
-
-  bottom: 30px;
-  letter-spacing: 2px;
-  text-align: center;
-
-
+.services .box-container .box:hover {
+  border: 0.2rem solid var(--second-color);
 }
 
-
-.col-content img:hover{
-  transform: scale(1.04);
-}
-
-
-
-/*populartours ends*/
-
-
-
-
-.videos-section{
-  display: flex;
-  align-items: center;
-
-
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  background: url(img/jan-walter-luigi--MqSCWMBocs-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
- 
-  background-color: hsla(0, 0%, 0%, 0.7);
-  background-blend-mode: overlay;
-
-
-
-}
-
-.video-container{
-  flex: 1 42rem;
-}
-
-
-video {
-  width: 100%;
-/*  height: auto;*/
-}
-
-
-.video-container .controls{
-  text-align: center;
-  padding: 2rem 0;
-
-}
-
-
-.video-container .controls span{
-  display: inline-block;
-  height: 2rem;
-  width: 2rem;
-  border-radius: 50%;
-  background: #fff;
-  cursor: pointer;
-  margin: .7rem;
-
-}
-
-.video-container .controls span:hover{
-  background: var(--second-color);
-
-}
-
-
-
-  
-.videos-text{
-  flex: 10 42rem;
-}
-
-
-.videos-text h3 {
-  font-size: 5.5vw;
-  color: #fff;
-  text-transform: uppercase;
-
-}
-
-.videos-text p {
- 
-
-  margin-top: 2rem;
-  font-size: 1.6rem;
-  color: #fff;
-  line-height: 2;
-  font-weight: 600;
-}
-
-
-
-.videos-text, .video-container{
-  padding-top: 3rem;
-
-  padding-bottom: 3rem;
-
-}
-
-.videos-text .author{
+.services .box-container .box i {
+  font-size: 4rem;
   color: var(--second-color);
+  margin-bottom: 2rem;
 }
+
+.services .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.services .box-container .box p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
 
 
 
