@@ -253,20 +253,20 @@ section {
 
 
 
-/*Popular Tours starts*/
+/*Our Tours starts*/
 
-.populartours{
+.ourtours{
 
   position: relative;
   width: 100%;
 }
 
-.populartours-text{
+.ourtours-text{
   text-align: center;
 
 }
 
-.populartours h3{
+.ourtours h3{
   font-size: 2.5rem;
 
   color: #fff;
@@ -274,7 +274,7 @@ section {
 
 }
 
-.populartours p {
+.ourtours p {
 
   margin-top: 1.6rem;
 
@@ -282,7 +282,7 @@ section {
   color: #fff;
 }
 
-.populartours-list{
+.ourtours-list{
 
 
   display: grid;
@@ -319,7 +319,7 @@ section {
 }
 
 
-.populartours-list h3{
+.ourtours-list h3{
   position: absolute;
   width: 100%;
 
@@ -327,7 +327,7 @@ section {
   text-align: center;
 }
 
-.populartours-list p{
+.ourtours-list p{
   position: absolute;
   width: 100%;
 
@@ -391,10 +391,165 @@ section {
   font-size: 30px;
   text-align: center;
 }
+.grid-item img{
+  width: 50%;
+  max-width: 300px;
+}
 
 .custom {
   grid-column: 1/1.5
 }
      
+
+
+
+/*populartours ends*/
+
+
+
+
+
+
+
+
+
+.footer .box-container {
+  
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box {
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .logo {
+  padding-bottom: 1rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #fff;
+  padding-bottom: 1rem ;
+}
+
+.footer .box-container .box p {
+  font-size: 1.4rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.footer .box-container .box p i {
+  padding-right: .5rem;
+  color: var(--second-color);
+}
+
+.footer .box-container .box .share {
+  padding-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  border: 0.2rem solid var(--second-color);
+  color: var(--second-color);
+  margin-right: .5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background: var(--second-color);
+  color: #fff;
+}
+
+
+
+.footer .box-container .box form .email {
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--second-color);
+  background: none;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: #aaa;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.4rem;
+}
+
+.credit {
+  background: #222;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: #aaa;
+}
+
+.credit span {
+  color: var(--second-color);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 2.5rem 2.5rem;
+/*    padding: 4.5rem 12%;*/
+  }
+}
+
+@media (max-width: 768px) {
+ /* #menu-btn {
+    display: inline-block;
+  }*/
+
+
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: var(--bg-color);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
+ /* .home {
+    margin-top: 10rem;
+  }
+  */
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  
+}
 
 
