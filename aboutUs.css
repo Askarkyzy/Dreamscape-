@@ -466,6 +466,15 @@ img {
 
 }
 
+.philosophy-text h4{
+
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: var(--second-color);
+  line-height: 2;
+
+}
+
 .philosophy-text p {
  
 
@@ -476,7 +485,6 @@ img {
   font-size: 1.6rem;
   color: #fff;
   line-height: 2;
-  font-weight: 600;
 }
 
 
