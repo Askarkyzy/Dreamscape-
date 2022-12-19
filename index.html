@@ -3,82 +3,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Tours</title>
-
     <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
    
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="qwes.css">
+    <link rel="stylesheet" href="tours.css">
 
-    
+    <link rel="icon" type="image/x-icon" href="img/icons8-plane-24.png">    
 
     <!-- custom js file link  -->
-    <script src="qwes.js" defer></script>
-    <style>
-    
-        .grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-item {
-  
-
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.custom {
-  grid-column: 1/1.5
-}
-     
-        
-    </style>
-
+    <script src="tours.js" defer></script>
 </head>
-
-
 <body>
-    
-<!-- header section starts  -->
 
-<header class="header">
+    <!-- Header starts -->
+    <header class="header">
+      <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="logo">
+            <a href="main.html">
+                <span class="dot"></span>
+                <h1>Travel</h1>
+            </a>
+        </div>
 
-    <div class="logo">
-        <a href="ExampleProj1.html">
-            <span class="dot"></span>
-            <h1>Travel</h1>
-        </a>
-    </div>
+        <ul class="navbar">
+            <li><a href="main.html">Main</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
 
-   
-       
+        <div class="search-box">
+            <input type="text" class="input-box" placeholder="Search...">
+            <span class="search-btn">
+                <i class="fa-solid fa-search"></i>
+            </span>
+        </div>
 
-    <ul class="navbar">
-        <li> <a href="ExampleProj1.html">Main</a></li>
-        <li> <a href="#aboutus">About us</a></li>
-        <li> <a href="#tours">Tours</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#reviews">Reviews</a></li>
-        <li> <a href="#contacts">Contacts</a></li>
-    </ul>
-
-   
-
-    <div class="search-box">
-        <input type="text" class="input-box" placeholder="Search...">
-        <span class="search-btn">
-          <i class="fa-solid fa-search"></i>
-        </span>
-     </div>
-
-
-</header>
-
+    </header>
 <!-- header section ends -->
 
 
@@ -87,35 +55,31 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
     <div class="row">
         <div class="column">
-        <h3>Why us?</h3>
-        <p class="text56">Bon't let  noise scare you,<br>
-            Let the rhythms of the dance amuze you. <br> 
-            You are given a very rare chance<br> 
-            Feel  the movement our ancestors </p>
+            <h3>Why us?</h3>
+            <p class="home-text">We offer you our tours. <br>
+            Our tours include many cities. In our <br>
+            services you can choose cruise, climbing,<br>
+            camping and historical.<br>
+            </p>
+
+            <div class="typewriter">
+                <h1>We have reasonable prices</h1>
+            </div>
         </div>
     
     <div class="column">
-
         <article class="item">
             <div class="photo">
                 <img class="personPhoto" alt="" src="img/bavaria.jpg">
                 <img class="personPhoto" alt=" " src="img/korea1.jpg" />
                 <img class="personPhoto" alt=" " src="img/thailand1.jpg" />
-        </div>
-    </article>
-
-    <P>aZSDEXRTFGYHUJIOK</P>
-        
+            </div>
+        </article>
     </div>
 </div>
 </section>
-<script>
-    </script>
-
-
 <!-- home section ends -->
 
 
@@ -131,127 +95,115 @@
     <div class="ourtours-list">
         <div class="col-content">
             <img src="img/paris.jpg" alt="">
-            <h3>Tour 1</h3>
+            <h3>Paris</h3>
             <p>Lorem ipsum dolor</p>
-
         </div>
 
         <div class="col-content">
             <img src="img/edinburgh.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Edinburgh</h3>
             <p>Lorem ipsum dolor</p>
-
         </div>
 
         <div class="col-content">
             <img src="img/ny.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>New York</h3>
             <p>Lorem ipsum dolor</p>
         </div>
-         <div class="col-content">
+        <div class="col-content">
             <img src="img/infw.jpg" alt="">
-            <h3>Tour 1</h3>
+            <h3>Singapur</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
             <img src="img/london.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>London</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
             <img src="img/manshester.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Manchester</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
-            <img src="img/rome.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <img src="img/rome1.jpg" alt="" >
+            <h3>Rome</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
             <img src="img/lisbon.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Lisbon</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
             <img src="img/milan.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Milan</h3>
             <p>Lorem ipsum dolor</p>
-
         </div>
         <div class="col-content">
             <img src="img/venecia.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Venesia</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
             <img src="img/berlin.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Berlin</h3>
             <p>Lorem ipsum dolor</p>
         </div>
         <div class="col-content">
             <img src="img/korea.jpg" alt="" >
-            <h3>Tour 1</h3>
+            <h3>Seoul</h3>
             <p>Lorem ipsum dolor</p>
         </div>
     </div>
     
 </section>
 
-
      <!-- Our tors ends -->
 
-
-
-
        <!-- Our  starts -->
-    <section class="ourtours" id="#ourtours">
+<section class="ourtours" id="#ourtours">
     <div class="ourtours-text"> 
-        <h4>Our Services</h4>
+        <h3>Our Services</h3>
     </div>
-       <section class="our-services">
-       <div class="grid-container">
-  <div class="grid-item">
-
-        <img src="img/redcruise.jpg" width="150px" height="150px">
-      
-          <h6>Cruise tourism refers to holidays which <br>
+</section>
+<section class="our-services">
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="img/cruise5.jpg" width="150px" height="150px">
+            <p>Cruise tourism refers to holidays which <br>
             are entirely or partly based on a <br>
-            cruise ship. It enables tourists to experience <br>a multi-centre holiday.</h6>
+            cruise ship. It enables tourists to experience <br>a multi-centre holiday.</p>
       
-  </div>
-  <div class="grid-item">
-      <img src="img/climbing.jpg" width="150px" height="150px">
-          <h6>It is only natural that the sport of rock <br>
-           climbing has become so popular recently.<br>
-            Seasonal climbing walls have sprouted up<br>
-             in urban centers.  </h6>
-  </div>
-  <div class="grid-item">
-      <img src="img/camping.jpg" width="150px" height="150px">
-           <h6>Camping is an outdoor activity involving <br>
-            overnight stays away from home, either without <br>
-             shelter or using basic shelter such as a tent, <br>
-         or a recreational vehicle.</h6>
-  </div>
-  <div class="grid-item">
-      <img src="img/religious.jpg" width="150px" height="150px">
-      <h6>Historical or heritage tourism means traveling<br>
+        </div>
+        <div class="grid-item">
+            <img src="img/climbing1.jpg" width="150px" height="150px">
+            <p>It is only natural that the sport<br> 
+                of rock climbing has become so <br>
+                popular recently.<br></p>
+           
+        </div>
+        <div class="grid-item">
+            <img src="img/camping1.jpg" width="150px" height="150px">
+            <p>Camping is an outdoor activity involving <br>
+            overnight stays away from home, either <br>
+             withoutshelter or using basic shelter <br> </p>
+        </div>
+        <div class="grid-item">
+            <img src="img/historical.jpg"width="150px" height="150px">
+            <p>Historical or heritage tourism means traveling<br>
        with the primary purpose of exploring the history <br>
        and heritage of a place. It may mean simple sightseeing <br>
-</h6>
-  </div>
+            </p>
         </div>
+    </div>
 </section>
 
 <!-- footer section starts  -->
 
 <section class="footer">
-
     <div class="box-container">
-
-
-<div class="box" >
+        <div class="box" >
             <div class="logo">
                 <a href="ExampleProj1.html"><span class="dot"></span>
                 <h1>Travel</h1>
@@ -266,8 +218,6 @@
                 <a href="#" class="fab fa-linkedin"></a>
             </div>
         </div>
-
-       
 
         <div class="box" >
             <h3>Contact Us</h3>
@@ -285,18 +235,10 @@
                 <input type="submit" value="subscribe" class="btn">
             </form>
         </div>
-
     </div>
-
 </section>
 
 <div class="credit">created by <span>team     nmöçfghjk</span> | all rights not  reserved!</div>
-
 <!-- footer section ends -->
-
-
-
-
-
 </body>
 </html>
