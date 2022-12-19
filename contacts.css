@@ -6,7 +6,11 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
 }
+
 
 :root{
   --bg-color: #161815;
@@ -34,6 +38,170 @@ h3{
  font-size: 6vw;
   color: #fff;
 }
+
+/*Header starts*/
+
+.header {
+  position: fixed;
+  top: 0;
+
+  right: 0;
+  z-index: 10100;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 4rem 12% ;
+  
+
+
+  
+}
+
+.navbar li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header .navbar a {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+
+
+  display: inline-block;
+  margin: 0 1rem;
+  transition: ease .40s;
+
+}
+
+.header .navbar a:hover {
+  color: var(--second-color);
+
+}
+
+.header .navbar li.active{
+  border-bottom: 1px solid white;
+} 
+
+
+header.sticky{
+  background: var(--bg-color);
+
+}
+
+
+.logo a{
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+}
+
+.logo .dot {
+  height: 25px;
+  width: 25px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.header .search-box{
+  position: relative;
+  min-width: 40px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+}
+
+.header  .search-box .search-btn{
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.4s;
+
+}
+
+.header  .search-box .search-btn i{
+  color: white;
+  font-size: 15px;
+  align-items: center;
+
+
+
+}
+
+.header  .search-box .input-box{
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  right: 20px;
+  transform: scaleX(0);
+  transform-origin: right;
+
+  background-color: white;
+  color: #3e3e3e;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  transition: 0.4s;
+
+}
+
+.header  .search-box:hover > .input-box{
+  width: 180px;
+  transform: scaleX(1);
+  padding: 0px 25px 0px 10px;
+
+}
+
+.header  .input-box:focus{
+  width: 180px;
+  transform: scaleX(1);
+  padding: 0px 25px 0px 10px;
+}
+
+
+
+
+        /*Header ends*/
+
+
+section {
+  padding: 4.5rem 12%;
+  padding-block: 100px;
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
 
 .contact-bg{
     height: 40vh;
