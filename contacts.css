@@ -204,7 +204,7 @@ section {
 
 
 .contact-bg{
-    height: 40vh;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(img/jan-walter-luigi--MqSCWMBocs-unsplash.jpg);
 
     background-position: 50% 100%;
@@ -218,11 +218,13 @@ section {
     align-items: center;
 }
 .contact-bg h3{
-    font-size: 1.3rem;
+    font-size: 5vh;
     font-weight: 400;
+    line-height: 2;
+
 }
 .contact-bg h2{
-    font-size: 3rem;
+    font-size: 6vw;
     text-transform: uppercase;
     padding: 0.4rem 0;
     letter-spacing: 4px;
@@ -234,7 +236,7 @@ section {
 .line div:nth-child(3){
     height: 3px;
     width: 70px;
-    background: #f7327a;
+    background: var(--second-color);
     border-radius: 5px;
 }
 .line{
@@ -244,25 +246,34 @@ section {
 .line div:nth-child(2){
     width: 10px;
     height: 10px;
-    background: #f7327a;
+    background: var(--second-color);;
     border-radius: 50%;
 }
 .text{
-    font-weight: 300;
-    opacity: 0.9;
+
+    margin-top: 1.6rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 2;
+
 }
 .contact-bg .text{
     margin: 1.6rem 0;
 }
+
+
+/*Section contact bg ends*/
+
+
+/*section contact body starts*/
 .contact-body{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    padding-block: 0;
 }
 .contact-info{
-    margin: 2rem 0;
-    text-align: center;
-    padding: 2rem 0;
+    margin-top: 0px;
+margin-bottom: 2rem;
+text-align: center;
 }
 .contact-info span{
     display: block;
