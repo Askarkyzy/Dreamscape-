@@ -307,6 +307,30 @@ text-transform: uppercase;
 }
 
 
+.why .title{
+font-size: 2.5rem;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+
+
+
+}
+
+.why .text p{
+  margin-top: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+}
+
+
+.why .text span{
+  color: var(--second-color);
+  
+}
 
 
 
