@@ -5,12 +5,36 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppıns', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+:root{
+  --bg-color: #161815;
+  --text-color: #fff;
+
+  --second-color: #cf2524;
+  --border-color:#444743;
+
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
 body{
-    
     line-height: 1.5;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
+
+h3{
+ font-size: 6vw;
+  color: #fff;
+}
+
 .contact-bg{
     height: 40vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(img/jan-walter-luigi--MqSCWMBocs-unsplash.jpg);
