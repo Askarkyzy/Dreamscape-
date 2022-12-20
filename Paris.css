@@ -332,6 +332,24 @@ font-weight: 600;
   
 }
 
+.why-box .heading{
+  margin-top: 1.6rem;
+  
+  font-size: 1.6rem;
+  color: var(--second-color);
+  line-height: 2;
+  font-weight: 600;
+
+}
+
+.why-box p{
+  margin-top: 1.6rem;
+  
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+}
+
 
 
 .footer .box-container {
