@@ -598,34 +598,8 @@ header.sticky{
   color: #29d9d5;
 }
 
-.banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/banner-bg.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 3rem 2rem;
-  background-attachment: fixed;
-  text-align: center;
-}
 
-.banner .content span {
-  font-size: 2rem;
-  color: #29d9d5;
-}
 
-.banner .content h3 {
-  font-size: 4rem;
-  color: #fff;
-  margin-top: 1rem;
-}
-
-.banner .content p {
-  max-width: 60rem;
-  margin: 1rem auto;
-  font-size: 1.4rem;
-  color: #aaa;
-  line-height: 2;
-}
 
 .footer .box-container {
   display: -ms-grid;
@@ -689,7 +663,9 @@ header.sticky{
   padding: 1rem 0;
   display: block;
 }
-
+.d-flex{
+  display: flex;
+}
 .footer .box-container .box .links:hover {
   color: #29d9d5;
 }
@@ -734,8 +710,10 @@ header.sticky{
   .header {
     padding: 1.5rem 2rem;
   }
+
   section {
-    padding: 3rem 2rem;
+    padding: 2.5rem 2.5rem;
+/*    padding: 4.5rem 12%;*/
   }
 }
 
@@ -743,44 +721,36 @@ header.sticky{
   #menu-btn {
     display: inline-block;
   }
+
+
   .header .navbar {
     position: absolute;
     top: 99%;
     left: 0;
     right: 0;
-    background: #222;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    background: var(--bg-color);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .navbar.active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .navbar a {
     margin: 2rem;
     font-size: 2rem;
     display: block;
   }
-  .home {
+ /* .home {
     margin-top: 10rem;
   }
-  .home .content span {
-    font-size: 8vw;
-  }
-  .home .content h3 {
-    font-size: 9vw;
-  }
+  */
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
-  .about .content h3 {
-    font-size: 3.5rem;
+  .populartours{
+    display: none;
   }
-  .banner .content h3 {
-    font-size: 2.7rem;
-  }
+  
 }
-/*# sourceMappingURL=style.css.map */
